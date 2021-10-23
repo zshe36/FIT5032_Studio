@@ -1,0 +1,64 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="/w3css/3/w3.css">
+
+    <div class="jumbotron">
+        <h1>Pet Food</h1>
+        <p class="lead">Look For Pet Food</p>
+        <p><a href="https://localhost:44310/Products" class="btn btn-primary btn-lg">Learn more &raquo;</a></p>
+    </div>
+
+    <h1>Food Category</h1>
+
+    <div class="row">
+        <div class="column">
+            <div class="col-md-4">
+                <a href="https://localhost:44310/Products">
+                    <img src="@Url.Content("/Image/Dog.jpg")" alt="Dog" style="width:100%" />
+                </a>
+                <p><a class="btn btn-default" href="https://localhost:44310/Products">Look For Dog Food &raquo;</a></p>
+            </div>
+        </div>
+        <div class="column">
+            <div class="col-md-4">
+                <a href="https://localhost:44310/Products">
+                    <img src="@Url.Content("/Image/cat.jpg")" alt="Cat" style="width:100%" />
+                </a>
+                <p><a class="btn btn-default" href="https://localhost:44310/Products">Look For Cat Food &raquo;</a></p>
+            </div>
+        </div>
+        <div class="column">
+            <div class="col-md-4">
+                <a href="https://localhost:44310/Products">
+                    <img src="@Url.Content("/Image/fish.jpg")" alt="Fish" style="width:100%" />
+                </a>
+                <p><a class="btn btn-default" href="https://localhost:44310/Products">Look For Fish Food &raquo;</a></p>
+            </div>
+        </div>
+    </div>
+
+    <h1></h1>
+    <div class="row">
+        <div class="col-md-4">
+            <a href="https://localhost:44310/Products">
+                <img src="@Url.Content("/Image/bird.jpg")" alt="Bird" style="width:100%" />
+            </a>
+            <p><a class="btn btn-default" href="https://localhost:44310/Products">Look For Bird Food &raquo;</a></p>
+        </div>
+        <div class="col-md-4">
+            <a href="https://localhost:44310/Products">
+                <img src="@Url.Content("/Image/reptile.jpg")" alt="Reptiles" style="width:100%" />
+            </a>
+            <p><a class="btn btn-default" href="https://localhost:44310/Products">Look For Reptile Food &raquo;</a></p>
+        </div>
+        <div class="col-md-4">
+            <a href="https://localhost:44310/Products">
+                <img src="@Url.Content("/Image/other_pet.jpg")" alt="Other Pets" style="width:100%" />
+            </a>
+            <p><a class="btn btn-default" href="https://localhost:44310/Products">Look For Other Pet Food &raquo;</a></p>
+        </div>
+    </div>

@@ -1,0 +1,6 @@
+﻿CREATE TABLE [dbo].[Events] (
+ [Id] INT IDENTITY (1, 1) NOT NULL,
+ [Title] VARCHAR (MAX) NOT NULL,
+ [Start] DATETIME NOT NULL,
+ PRIMARY KEY CLUSTERED ([Id] ASC)
+);
